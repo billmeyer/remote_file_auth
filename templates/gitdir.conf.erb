@@ -1,0 +1,9 @@
+<Directory "/var/www/html/git">
+  AuthType Basic
+  AuthName "Authentication Required"
+  AuthUserFile "/etc/httpd/.htpasswd"
+  Require valid-user
+
+  Order allow,deny
+  Allow from all
+</Directory>
