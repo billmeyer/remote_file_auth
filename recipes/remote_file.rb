@@ -6,7 +6,9 @@
 
 require 'base64'
 
+
 # With Chef Vault:
+# infra_secrets = ChefVault::Item.load('automate', 'automate')
 # github_server = infra_secrets['github_server']
 # github_user = infra_secrets['github_user']
 # github_pw = infra_secrets['github_pw']
